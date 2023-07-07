@@ -1,0 +1,1 @@
+from chatglm_pipline import ChatGLMPipline

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "langchain-chatglm"
+version = "0.0.4"
+authors = [
+  { name="Sim Tsai", email="13759975+SimTsai@users.noreply.github.com" },
+]
+description = "esay use ChatGLM in LangChain."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pydantic==1.10.11",
+  "langchain==0.0.226"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SimTsai/langchain_chatglm"
+"Bug Tracker" = "https://github.com/SimTsai/langchain_chatglm/issues"
