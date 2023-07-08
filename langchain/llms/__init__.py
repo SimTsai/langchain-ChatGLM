@@ -1,0 +1,1 @@
+from langchain.llms.chatglm_pipeline import ChatGLMPipeline
