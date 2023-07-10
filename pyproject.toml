@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "langchain-chatglm"
-version = "0.0.5"
+version = "0.0.13"
 authors = [
   { name="Sim Tsai", email="13759975+SimTsai@users.noreply.github.com" },
 ]
@@ -17,8 +17,10 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-  "pydantic==1.10.11",
-  "langchain==0.0.226"
+  "pydantic<2",
+  "langchain",
+  "transformers",
+  "torch"
 ]
 
 [project.urls]

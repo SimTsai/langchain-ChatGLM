@@ -41,3 +41,11 @@ question = "华晨宇和张碧晨是什么关系?"
 llm_chain.run(question)
 
 ```
+
+## model_kwargs
+| key | values | remark |
+| --- | ------ | ------ |
+| `"device"` | `"cuda"` | 使用cuda加速 |
+| `"float"` | `True`, `False` | 使用cpu推理  |
+| `"quantize"`| `8` | 量化 |
+

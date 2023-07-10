@@ -1,2 +1,4 @@
-pydantic==1.10.11
-langchain==0.0.226
+pydantic<2
+langchain
+transformers
+torch
